@@ -1,6 +1,11 @@
-# poly roots comparison
+# SciJS Polynomial Root-finder Comparison
 
-A quick script (ugly. seriously ugly) to compare the speed and accuracy of a few polynomial root-finding methods in the [scijs](https://github.com/scijs) toolbox.
+A quick script (ugly. seriously ugly) to compare the speed and accuracy of a few polynomial root-finding methods in the [scijs](https://github.com/scijs) toolbox. Node modules tested:
+
+- https://www.npmjs.com/package/durand-kerner
+- https://www.npmjs.com/package/poly-roots
+- https://www.npmjs.com/package/companion-roots
+
 
 ## Summary:
 
