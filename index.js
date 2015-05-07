@@ -23,12 +23,6 @@ var methods = [
 var cases = require('./cases.json');
 
 
-var roots = findRoots([6,1,-4,1],[0,0,0,0]);
-for(var i=0; i<roots.length; ++i) {
-    console.log(roots[0][i] + "+" + roots[1][i] + "i")
-}
-
-
 // Search epected real/imag for observed real/imag pairs:
 function error( er, ei, or, oi ) {
   var hits = [];
@@ -71,7 +65,7 @@ function time(name, callback, roots) {
       if( roots !== undefined ) {
         err = error( roots.real, roots.imag, solution[0], solution[1] );
         for(var j=0; j<solution[0].length; j++) {
-          console.log(solution[0][j], solution[1][j]);
+          //console.log(solution[0][j], solution[1][j]);
         }
       }
     }
