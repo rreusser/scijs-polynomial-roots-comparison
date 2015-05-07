@@ -1,0 +1,35 @@
+{
+  "name": "poly-root-comparison",
+  "version": "1.0.0",
+  "description": "Comparison of scijs polynomial root-finding methods",
+  "main": "index.js",
+  "author": "Ricky Reusser",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "node test/**",
+    "lint": "jshint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scijs/poly-root-comparison.git"
+  },
+  "keywords": [
+    "polynomial",
+    "scijs",
+    "roots",
+    "algebra",
+    "math",
+    "benchmark"
+  ],
+  "dependencies": {
+    "companion-roots": "0.0.1",
+    "durand-kerner": "0.0.2",
+    "poly-roots": "^1.0.4"
+  },
+  "devDependencies": {
+    "jshint": "^2.7.0",
+    "printf": "^0.2.1",
+    "tape": "^4.0.0"
+  }
+}
