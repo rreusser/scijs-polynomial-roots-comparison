@@ -23,7 +23,7 @@ var methods = [
 var cases = require('./cases.json');
 
 
-// Search epected real/imag for observed real/imag pairs:
+// Greedy search search for the root they're supposed to be the error of:
 function error( er, ei, or, oi ) {
   var hits = [];
   var i,j,idx,errmin,total = 0;
